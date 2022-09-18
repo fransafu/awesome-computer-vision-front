@@ -18,6 +18,10 @@ const HeaderLayout = () => {
     {
       label: <Link to="/dataset">Dataset</Link>,
       key: 'dataset'
+    },
+    {
+      label: <Link to="/papers">Papers</Link>,
+      key: 'papers'
     }
   ];
 
