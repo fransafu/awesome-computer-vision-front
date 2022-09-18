@@ -1,10 +1,18 @@
-import './App.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-      <h1>awesome-computer-vision-front</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
