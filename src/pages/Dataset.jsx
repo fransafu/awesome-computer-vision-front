@@ -59,7 +59,7 @@ const Dataset = () => {
 
   return (
     <>
-      <Row justify='center'>
+      <Row justify="center">
         <Col span={20}>
           <Typography>
             <Title>Dataset</Title>
@@ -72,7 +72,7 @@ const Dataset = () => {
         </Col>
       </Row>
 
-      <Row justify='center'>
+      <Row justify="center">
         <Col span={20}>
           <Table dataSource={dataSource} columns={columns} />
         </Col>

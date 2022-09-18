@@ -12,22 +12,27 @@ const HeaderLayout = () => {
 
   const items = [
     {
-      label: (<Link to='/'>Home</Link>),
-      key: 'home',
+      label: <Link to="/">Home</Link>,
+      key: 'home'
     },
     {
-      label: (<Link to='/dataset'>Dataset</Link>),
-      key: 'dataset',
-    },
+      label: <Link to="/dataset">Dataset</Link>,
+      key: 'dataset'
+    }
   ];
 
   return (
-    <Header className='site-layout-background'>
-      <div className='logo'>
-        <img src={EyeSvg} style={{ height: 53, width: 36 }} alt='website logo' />
+    <Header className="site-layout-background">
+      <div className="logo">
+        <img src={EyeSvg} style={{ height: 53, width: 36 }} alt="website logo" />
         Awesome computer vision
       </div>
-      <Menu theme='light' mode='horizontal' defaultSelectedKeys={defaultSelectedKeys} items={items} />
+      <Menu
+        theme="light"
+        mode="horizontal"
+        defaultSelectedKeys={defaultSelectedKeys}
+        items={items}
+      />
     </Header>
   );
 };
