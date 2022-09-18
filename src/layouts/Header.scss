@@ -1,0 +1,17 @@
+.logo {
+  float: left;
+
+  &__img {
+    width: 110px;
+    height: 24px;
+  }
+
+  &__title {
+    text-decoration: none;
+  }
+}
+
+// light theme
+.site-layout-background {
+    background: #fff;
+}
