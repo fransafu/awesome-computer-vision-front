@@ -1,9 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Layout from './layouts/Layout';
-import Home from './pages/Home';
+import Layout from "./layouts/Layout";
+import Home from "./pages/Home";
 
-function App () {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -12,7 +12,7 @@ function App () {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

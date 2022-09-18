@@ -1,8 +1,7 @@
-
-const Header = (props) => (
-    <>
-        <h1>Header</h1>
-    </>
+const Header = () => (
+  <>
+    <h1>Header</h1>
+  </>
 );
 
 export default Header;
