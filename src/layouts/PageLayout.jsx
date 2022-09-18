@@ -1,24 +1,20 @@
 import { Outlet } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import HeaderLayout from './HeaderLayout';
-import FooterLayout from './FooterLayout';
+import Header from './Header';
+import Footer from './Footer';
 
-const { Header, Footer, Content } = Layout;
+const { Content } = Layout;
 
 export default function PageLayout () {
   return (
     <>
-      <Layout>
-        <Header>
-          <HeaderLayout />
-        </Header>
+      <Layout style={{ minHeight: "100vh" }}>
+        <Header />
         <Content>
           <Outlet />
         </Content>
-        <Footer>
-          <FooterLayout />
-        </Footer>
+        <Footer />
       </Layout>
     </>
   );
